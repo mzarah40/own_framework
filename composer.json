@@ -1,0 +1,20 @@
+{
+   "name": "mz/framework",
+   "require": {
+      "php": ">=7.3.30",
+      "smarty/smarty": "~3.1"
+   },
+   "minimum-stability": "alpha",
+   "authors": [{
+      "name": "MZ Servicos de Programacao",
+      "email": "mauricio@empuxoweb.com.br"
+   }],
+   "autoload": {
+      "psr-4": {
+         "App\\":"./app",
+         "App\\Controller\\":"./app/Controller",
+         "Sys\\":"./sys",
+         "App\\Jwt\\":"./app/Jwt"
+      }
+   }
+}
